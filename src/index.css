@@ -1,0 +1,40 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rancho&display=swap');
+
+.font-rancho {
+  font-family: "Rancho", cursive;
+  font-style: normal;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.shaded-text {
+  font-size: 45px;
+  text-shadow: 2px 2px 5px #331a15;
+  font-family: "Rancho", cursive;
+}
+
+.shaded-text-slate {
+  text-shadow: 2px 2px 5px #334155;
+  font-family: "Rancho", cursive;
+}
+
+.shaded-text-white {
+  text-shadow: 2px 2px 5px white;
+  font-family: "Rancho", cursive;
+}
+
+.img-container>img:hover {
+  transform: scale(1.03);
+  transition: all 0.15s ease-in-out;
+  filter: drop-shadow(3px 10px 4px black);
+  cursor: pointer;
+}
+
+.img-container>img {
+  transition: all 0.15s ease-in-out;
+}

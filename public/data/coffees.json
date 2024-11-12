@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Espresso Delight",
+    "chef": "John Brewster",
+    "supplier": "Mountain Bean Co.",
+    "taste": "Rich, Bold",
+    "category": "Espresso",
+    "details": "A pure shot of espresso made from high-quality Arabica beans, offering a bold and rich flavor.",
+    "photoURL": "https://example.com/espresso.jpg"
+  },
+  {
+    "name": "Caramel Macchiato",
+    "chef": "Alice Latte",
+    "supplier": "Golden Beans",
+    "taste": "Sweet, Creamy",
+    "category": "Macchiato",
+    "details": "A smooth espresso layered with steamed milk, vanilla syrup, and a touch of caramel.",
+    "photoURL": "https://example.com/caramel_macchiato.jpg"
+  },
+  {
+    "name": "Vanilla Latte",
+    "chef": "Mark Coffee",
+    "supplier": "Bean Brothers",
+    "taste": "Mild, Sweet",
+    "category": "Latte",
+    "details": "A perfect combination of espresso, steamed milk, and vanilla syrup for a sweet, mild coffee experience.",
+    "photoURL": "https://example.com/vanilla_latte.jpg"
+  },
+  {
+    "name": "Mocha Madness",
+    "chef": "Sarah Bean",
+    "supplier": "Cocoa Brew Supply",
+    "taste": "Chocolatey, Rich",
+    "category": "Mocha",
+    "details": "A delightful mix of rich espresso, steamed milk, and chocolate, topped with whipped cream.",
+    "photoURL": "https://example.com/mocha.jpg"
+  },
+  {
+    "name": "Cappuccino Bliss",
+    "chef": "Kevin Steam",
+    "supplier": "Cloud Coffee Suppliers",
+    "taste": "Frothy, Bold",
+    "category": "Cappuccino",
+    "details": "A balanced blend of espresso, steamed milk, and frothy foam, providing a strong yet creamy experience.",
+    "photoURL": "https://example.com/cappuccino.jpg"
+  },
+  {
+    "name": "Iced Americano",
+    "chef": "Sophia Iced",
+    "supplier": "Chill Bean Imports",
+    "taste": "Strong, Refreshing",
+    "category": "Iced Coffee",
+    "details": "A refreshing cold brew with a bold espresso flavor, perfect for hot days.",
+    "photoURL": "https://example.com/iced_americano.jpg"
+  },
+  {
+    "name": "Pumpkin Spice Latte",
+    "chef": "Autumn Spice",
+    "supplier": "Harvest Bean Co.",
+    "taste": "Spiced, Sweet",
+    "category": "Seasonal",
+    "details": "A seasonal favorite with pumpkin spice, cinnamon, and steamed milk combined with espresso.",
+    "photoURL": "https://example.com/pumpkin_spice.jpg"
+  },
+  {
+    "name": "Hazelnut Cappuccino",
+    "chef": "George Roast",
+    "supplier": "Nutty Brew Suppliers",
+    "taste": "Nutty, Smooth",
+    "category": "Cappuccino",
+    "details": "A rich cappuccino with a touch of hazelnut flavor, topped with a creamy froth.",
+    "photoURL": "https://example.com/hazelnut_cappuccino.jpg"
+  },
+  {
+    "name": "Dark Roast Brew",
+    "chef": "Anna Dark",
+    "supplier": "Deep Bean Imports",
+    "taste": "Strong, Bitter",
+    "category": "Brewed Coffee",
+    "details": "A full-bodied dark roast coffee with a strong and bitter profile, ideal for black coffee lovers.",
+    "photoURL": "https://example.com/dark_roast.jpg"
+  },
+  {
+    "name": "Cinnamon Dolce Latte",
+    "chef": "Lisa Spice",
+    "supplier": "Sweet Beans Co.",
+    "taste": "Spicy, Sweet",
+    "category": "Latte",
+    "details": "A sweet latte infused with cinnamon dolce syrup and topped with whipped cream and cinnamon sprinkles.",
+    "photoURL": "https://example.com/cinnamon_dolce.jpg"
+  }
+]
