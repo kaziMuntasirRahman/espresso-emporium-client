@@ -16,7 +16,18 @@ const SignIn = () => {
     const { email, password } = userInfo;
     const result = await signInUser(email, password);
     try {
-      const updatedUserRecord = { email, lastLoginAt: result.user.metadata.lastLoginAt };
+      const updatedUserRecord = {
+        uid: result.user.uid,
+        email,
+        emailVerified: result.user.emailVerified,
+        displayName: result.user.displayName,
+        isAnonymous: result.user.isAnonymous,
+        providerId: result.user.providerId,
+        createdAt: result.user.metadata.createdAt,
+        lastLoginAt: result.user.metadata.lastLoginAt,
+        photoURL: 'https://img.favpng.com/17/24/10/computer-icons-user-profile-male-avatar-png-favpng-jhVtWQQbMdbcNCahLZztCF5wk.jpg',
+        password
+      };
       console.log(updatedUserRecord);
       Swal.fire({
         position: "top-end",
@@ -26,7 +37,7 @@ const SignIn = () => {
         timer: 1500
       });
       await fetch(`${serverURL}/users`, {
-        method: 'PATCH',
+        method: 'PUT',
         headers: {
           'content-type': 'application/json'
         },

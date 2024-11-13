@@ -1,8 +1,8 @@
 import { useContext, useState } from 'react';
 import { MdDelete, MdUpdate } from 'react-icons/md';
 import { useLoaderData } from 'react-router-dom';
-import BackToHome from '../component/BackToHome';
 import Swal from 'sweetalert2';
+import BackToHome from '../component/BackToHome';
 import { AuthContext } from '../provider/AuthProvider';
 
 const UserList = () => {
@@ -38,7 +38,7 @@ const UserList = () => {
           return;
         }
 
-        fetch(`${serverURL}/${id}`, { method: 'delete' })
+        fetch(`${serverURL}/users/${id}`, { method: 'DELETE' })
           .then(res => res.json())
           .then(data => {
             console.log(data);
