@@ -10,10 +10,11 @@ import CommentsPage from "../pages/CommentsPage";
 import SignUp from "../pages/SignUp";
 import SignIn from "../pages/SignIn";
 import UserList from "../pages/UserList";
+import UserList2 from "../pages/UserList2";
 
 
-// const serverURL = 'https://espresso-emporium-server-kappa.vercel.app';
-const serverURL = 'http://localhost:3000';
+const serverURL = 'https://espresso-emporium-server-kappa.vercel.app';
+// const serverURL = 'http://localhost:3000';
 
 const router = createBrowserRouter([
   {
@@ -63,6 +64,10 @@ const router = createBrowserRouter([
         path: 'users',
         element: <UserList />,
         loader: () => fetch(`${serverURL}/users`)
+      },
+      {
+        path: 'users2',
+        element: <UserList2 />
       }
     ]
   },
